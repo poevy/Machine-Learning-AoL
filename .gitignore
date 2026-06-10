@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+.DS_Store
+
+# Local-only legacy files kept for reference, not needed by Streamlit Cloud.
+legacy/
+
+# Optional generated artifacts from retraining.
+models/*.pkl
+outputs/*.csv
+!outputs/.gitkeep
+!models/.gitkeep
